@@ -1,0 +1,13 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "Preentrega3 donde se intenta aplicar principios de sass y seo al proyecto final mediante nesting mixins y variables asi como descripciones en imagenes y contenido multimedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "LuisFernandoDeLaTorreA",
+  "license": "ISC"
+}

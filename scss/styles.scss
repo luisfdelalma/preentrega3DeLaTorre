@@ -1,0 +1,396 @@
+* {
+    border: 0;
+    font-family: 'lato';
+  }
+  
+  a {
+    &:link, &:visited, &:hover, &:active {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  $azuldyna: #03045e;
+  $naranjadyna: #E8630A;
+  $amarillodyna: #f0a202;
+  
+  @import "botones";
+  
+  .PHLine {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .TituloHeader {
+    font-family: 'lato';
+    font-weight: 900;
+    font-size: 50px;
+  }
+  .HeaderMenu a {
+    &:link {
+      text-decoration: none;
+      color: $azuldyna;
+      font-weight: 600;
+    }
+  
+    &:hover, &:active {
+      text-decoration: none;
+      color: $naranjadyna;
+    }
+  }
+  .SectionTitle1 {
+    line-height: 200%;
+    color: $azuldyna;
+  
+    h1 {
+      font-weight: 600;
+    }
+  }
+  
+  .SectionText p {
+    width: 80%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  
+  @import "animaciones";
+    
+  #Inicio2 h2 {
+    font-size: x-large;
+    font-weight: 800;
+    color: $azuldyna;
+  }
+  
+  .IconItem img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .IconNumber {
+    font-size: xx-large;
+    font-weight: 800;
+    color: $azuldyna;
+    margin-bottom: 0px;
+  }
+  
+  .IconText {
+    font-size: medium;
+    color: gray;
+  }
+  
+  .SectionPreTitle h1 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0px;
+    color: $amarillodyna;
+  }
+  
+  .Section2Title1 {
+    margin-top: 10px;
+  
+    h1 {
+      font-size: xx-large;
+      margin: 0px;
+      font-weight: 700;
+      color: $azuldyna;
+    }
+  }
+  
+  .SectionListItem {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+  
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  .SectionListItemText {
+    margin-left: 20px;
+  
+    h3 {
+      margin: 0px;
+      color: $azuldyna;
+      font-size: larger;
+      font-weight: 600;
+    }
+  
+    p {
+      margin: 0px;
+      margin-top: 5px;
+      font-size: medium;
+      font-weight: 500;
+      width: 90%;
+    }
+  }
+  
+  .imgizq img {
+    width: 600px;
+  }
+  
+  .CheckList {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .CheckListItem {
+    display: flex;
+    flex-direction: row;
+  
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  
+    p {
+      margin-left: 10px;
+    }
+  }
+  
+  .ServiceItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ServiceIcon img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .ServiceText {
+    font-family: 'Lato';
+    font-size: large;
+    font-weight: 600;
+    color: $azuldyna;
+    text-align: center;
+  }
+  
+  .Footer1 {
+    justify-content: left;
+  }
+  
+  .FooterTitle {
+    font-size: x-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .FooterText1 {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+  
+  .FooterIcon img {
+    margin: 0px;
+    margin-right: 10px;
+  }
+  
+  .Footer2 {
+    align-items: left;
+  }
+  
+  .FooterSubTitle {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .FooterMenu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .FooterMenuItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .FooterArrow {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .FooterLink {
+    font-size: medium;
+    text-decoration: none;
+    color: $azuldyna;
+    font-family: 'Lato';
+    font-weight: 500;
+  }
+  
+  .Footer3 {
+    padding-left: 0%;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .Footer4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+  }
+  
+  .FooterText2 {
+    width: 100%;
+  }
+  
+  form input {
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+    border-width: 1px;
+  }
+  
+  .FooterLine {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .ServiciosSection1Title h1 {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: xx-large;
+    color: black;
+  }
+  
+  .ServiciosSection1Breadcrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: $azuldyna;
+    column-gap: 5px;
+  }
+  
+  .BreadcrumbItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BreadLink {
+    text-decoration: none;
+  }
+  
+  .BreadCrumb {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .SectionTextCenter p {
+    width: 70%;
+  }
+  
+  .serviciosseccion3 {
+    margin-top: 50px;
+  }
+  
+  .seccionser {
+    margin-top: 30px;
+  }
+  
+  .PreciosA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    background-color: $azuldyna;
+    border-radius: 10px;
+  }
+  
+  .TituloPreciosA {
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    margin-left: 33%;
+  }
+  
+  .ListaPrecioA {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-style: oblique;
+  }
+  
+  .CostoA {
+    margin-left: 25%;
+    font-size: large;
+    color: $amarillodyna;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .PreciosB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    background-color: $amarillodyna;
+    border-radius: 10px;
+  }
+  
+  .TituloPreciosB {
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+    margin-left: 30%;
+  }
+  
+  .ListaPrecioB {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-style: oblique;
+  }
+  
+  .CostoB {
+    margin-left: 25%;
+    font-size: large;
+    color: $azuldyna;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .Formulario {
+    display: flex;
+    font-family: 'Lato';
+    align-items: center;
+  }
+  
+  .FormSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    font-family: 'Lato';
+    font-size: large;
+    font-weight: 600;
+    color: $azuldyna;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  .FormText {
+    border-radius: 10px;
+    border-width: 1px;
+    height: 20px;
+  }

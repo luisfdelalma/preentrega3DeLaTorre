@@ -1,0 +1,39 @@
+@mixin estiloboton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.Button a {
+    @include estiloboton;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #03045e;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    &:hover {
+      background-color: #E8630A;
+      color: white;
+    }
+  }
+
+  .FooterButton a {
+    @include estiloboton;
+    border-radius: 15px;
+    height: 25px;
+    width: 255px;
+    border-width: 1px;
+    background-color: #f0a202;
+    margin-top: 10px;
+
+    &:hover{
+        color: white;
+    }
+  }
